@@ -1,3 +1,5 @@
+import 'package:app_note/widgets/Custom_app_bar.dart';
+import 'package:app_note/widgets/nots_views_body.dart';
 import 'package:flutter/material.dart';
 
 class NotesView extends StatelessWidget {
@@ -5,5 +7,13 @@ class NotesView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return  const Column(
+      children: [
+        
+   
+      ],
+    );
 }}
+
+
+
