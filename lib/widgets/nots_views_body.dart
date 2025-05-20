@@ -1,6 +1,7 @@
 import 'package:app_note/main.dart';
 import 'package:app_note/widgets/Custom_app_bar.dart';
-import 'package:app_note/widgets/Custom_note_item.dart';
+import 'package:app_note/widgets/custom_note_item.dart';
+import 'package:app_note/widgets/notes_list_views.dart';
 
 import 'package:flutter/material.dart';
 
@@ -16,10 +17,11 @@ class Notsviewsbody extends StatelessWidget {
           children: [
             SizedBox(height: 50),
             CustomAppBar(),
-            NoteItem(),
+            Expanded(child: NotsListViews(),),
           ],
         ),
       ),
     );
   }
 }
+
