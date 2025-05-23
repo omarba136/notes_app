@@ -2,16 +2,16 @@ import 'package:app_note/widgets/Custom_app_bar.dart';
 import 'package:app_note/widgets/nots_views_body.dart';
 import 'package:flutter/material.dart';
 
+
 class NotesView extends StatelessWidget {
-  const NotesView({super.key});
+  const NotesView({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return  const Column(
-      children: [
-        
-   
-      ],
+    return  Scaffold(
+    floatingActionButton: FloatingActionButton(onPressed: (){},
+    child: const Icon(Icons.add,),),
+      body:const Notsviewsbody(),
     );
 }}
 

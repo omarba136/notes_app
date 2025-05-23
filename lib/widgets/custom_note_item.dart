@@ -30,7 +30,7 @@ class NoteItem extends StatelessWidget {
                 'Build your carers with omar mohamed',
                 style: TextStyle(
                   color: Colors.black.withOpacity(0.6),
-                  fontSize: 20,
+                  fontSize: 18,
                 ),
               ),
             ),
