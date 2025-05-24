@@ -7,12 +7,21 @@ class AddNotButtomSheet extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Column(
-children: [
-SizedBox(height: 33,),
-
-  CustomTextField(),
-],
-      
-    );  }
+      children: [
+        SizedBox(
+          height: 33,
+        ),
+        CustomTextField(
+          hint: 'titel',
+        ),
+        SizedBox(
+          height: 16,
+        ),
+        CustomTextField(
+          hint: 'titel',
+          maxLines: 5,
+        ),
+      ],
+    );
+  }
 }
-
