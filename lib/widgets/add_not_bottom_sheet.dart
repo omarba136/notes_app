@@ -1,3 +1,4 @@
+import 'package:app_note/widgets/Custom_text_field.dart';
 import 'package:flutter/material.dart';
 
 class AddNotButtomSheet extends StatelessWidget {
@@ -5,8 +6,12 @@ class AddNotButtomSheet extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  Container(
+    return const Column(
+children: [
+SizedBox(height: 33,),
 
+  CustomTextField(),
+],
       
     );  }
 }
