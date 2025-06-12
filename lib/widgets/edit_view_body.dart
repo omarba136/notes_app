@@ -1,3 +1,4 @@
+import 'package:app_note/widgets/Custom_app_bar.dart';
 import 'package:flutter/material.dart';
 
 class EditnotViewBody extends StatelessWidget {
@@ -5,4 +6,15 @@ class EditnotViewBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();}}
+    return const Padding(
+      padding:  EdgeInsets.symmetric(horizontal: 24),
+      child: Column(
+        children: [
+          SizedBox(height: 50),
+          CustomAppBar(
+            title: 'Edit Note',
+            icon: Icons.check,
+          ),
+        ],
+      ),
+    );}}
